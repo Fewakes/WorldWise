@@ -1,40 +1,124 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "cityName": "Greater Manchester",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2023-09-26T03:10:40.720Z",
+      "notes": "Thats Where i lived",
       "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
+        "lat": "53.38332836757156",
+        "lng": "-2.0214843750000004"
       },
-      "id": 73930385
+      "id": 1
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
+      "cityName": "Greater London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2023-09-26T03:10:48.018Z",
+      "notes": "Thats where I've been",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": "51.45400691005982",
+        "lng": "-0.087890625"
       },
-      "id": 17806751
+      "id": 2
     },
     {
-      "cityName": "Berlin",
+      "cityName": "Leicester",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2023-09-26T03:10:56.853Z",
+      "notes": "Thats where i Live",
+      "position": {
+        "lat": "52.61639023304539",
+        "lng": "-0.8349609375000001"
+      },
+      "id": 3
+    },
+    {
+      "cityName": "Drensteinfurt",
       "country": "Germany",
       "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "date": "2023-09-26T03:11:13.378Z",
+      "notes": "Thats where I ve spent christmas",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": "51.754240074033525",
+        "lng": "7.778320312500001"
       },
-      "id": 98443197
+      "id": 4
+    },
+    {
+      "cityName": "Lossatal",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2023-09-26T03:11:23.147Z",
+      "notes": "Thats where ive seen my dad",
+      "position": {
+        "lat": "51.37178037591739",
+        "lng": "12.919921875000002"
+      },
+      "id": 5
+    },
+    {
+      "cityName": "Obrowo",
+      "country": "Poland",
+      "emoji": "🇵🇱",
+      "date": "2023-09-26T03:11:34.448Z",
+      "notes": "Thats where i lived",
+      "position": {
+        "lat": "52.98833725339543",
+        "lng": "18.896484375000004"
+      },
+      "id": 6
+    },
+    {
+      "cityName": "Rzeszow",
+      "country": "Poland",
+      "emoji": "🇵🇱",
+      "date": "2023-09-26T03:11:42.135Z",
+      "notes": "Where i Used to visit",
+      "position": {
+        "lat": "50.035973672195496",
+        "lng": "21.884765625"
+      },
+      "id": 7
+    },
+    {
+      "cityName": "Grodkow",
+      "country": "Poland",
+      "emoji": "🇵🇱",
+      "date": "2023-09-26T03:11:49.268Z",
+      "notes": "Where i. VISIT now ",
+      "position": {
+        "lat": "50.680797145321655",
+        "lng": "17.490234375000004"
+      },
+      "id": 8
+    },
+    {
+      "cityName": "Campos",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-26T03:11:57.831Z",
+      "notes": "My Holiday",
+      "position": {
+        "lat": "39.402244340292775",
+        "lng": "3.0322265625000004"
+      },
+      "id": 9
+    },
+    {
+      "cityName": "Hato Mayor del Rey",
+      "country": "Dominican Republic (the)",
+      "emoji": "🇩🇴",
+      "date": "2023-09-26T03:12:07.501Z",
+      "notes": "My Holiday",
+      "position": {
+        "lat": "18.687878686034182",
+        "lng": "-69.43359375000001"
+      },
+      "id": 10
     }
   ]
 }
