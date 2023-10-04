@@ -37,18 +37,6 @@
       "id": 3
     },
     {
-      "cityName": "Drensteinfurt",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2023-09-26T03:11:13.378Z",
-      "notes": "Thats where I ve spent christmas",
-      "position": {
-        "lat": "51.754240074033525",
-        "lng": "7.778320312500001"
-      },
-      "id": 4
-    },
-    {
       "cityName": "Lossatal",
       "country": "Germany",
       "emoji": "🇩🇪",
@@ -59,30 +47,6 @@
         "lng": "12.919921875000002"
       },
       "id": 5
-    },
-    {
-      "cityName": "Obrowo",
-      "country": "Poland",
-      "emoji": "🇵🇱",
-      "date": "2023-09-26T03:11:34.448Z",
-      "notes": "Thats where i lived",
-      "position": {
-        "lat": "52.98833725339543",
-        "lng": "18.896484375000004"
-      },
-      "id": 6
-    },
-    {
-      "cityName": "Rzeszow",
-      "country": "Poland",
-      "emoji": "🇵🇱",
-      "date": "2023-09-26T03:11:42.135Z",
-      "notes": "Where i Used to visit",
-      "position": {
-        "lat": "50.035973672195496",
-        "lng": "21.884765625"
-      },
-      "id": 7
     },
     {
       "cityName": "Grodkow",
@@ -119,6 +83,30 @@
         "lng": "-69.43359375000001"
       },
       "id": 10
+    },
+    {
+      "cityName": "Avila",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-10-01T21:05:33.330Z",
+      "notes": "jk",
+      "position": {
+        "lat": "40.713955826286046",
+        "lng": "-4.746093750000001"
+      },
+      "id": 11
+    },
+    {
+      "cityName": "St Keyne",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2023-10-02T23:24:23.358Z",
+      "notes": "spoko bylo",
+      "position": {
+        "lat": "50.28231945008158",
+        "lng": "-4.965820312500001"
+      },
+      "id": 12
     }
   ]
 }
