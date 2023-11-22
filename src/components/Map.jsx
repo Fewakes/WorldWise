@@ -7,9 +7,10 @@ import {
   useMap,
   useMapEvents,
 } from "react-leaflet";
-import { useState, useEffect } from "react";
-import { useCities } from "../contexts/CitiesContext";
+
 import styles from "./Map.module.css";
+import { useEffect, useState } from "react";
+import { useCities } from "../contexts/CitiesContext";
 import { useGeolocation } from "../hooks/useGeolocation";
 import { useUrlPosition } from "../hooks/useUrlPosition";
 import Button from "./Button";
@@ -22,8 +23,8 @@ function Map() {
     position: geolocationPosition,
     getPosition,
   } = useGeolocation();
-
   const [mapLat, mapLng] = useUrlPosition();
+
   useEffect(
     function () {
       if (mapLat && mapLng) setMapPosition([mapLat, mapLng]);
@@ -43,12 +44,12 @@ function Map() {
     <div className={styles.mapContainer}>
       {!geolocationPosition && (
         <Button type="position" onClick={getPosition}>
-          {isLoadingPosition ? "Loading..." : "Use your position"}{" "}
+          {isLoadingPosition ? "Loading..." : "Use your position"}
         </Button>
       )}
+
       <MapContainer
         center={mapPosition}
-        // center={[mapLat || 40, mapLng || 0]}
         zoom={6}
         scrollWheelZoom={true}
         className={styles.map}
@@ -63,11 +64,11 @@ function Map() {
             key={city.id}
           >
             <Popup>
-              <span>{city.emoji}</span>
-              <span>{city.cityName}</span>
+              <span>{city.emoji}</span> <span>{city.cityName}</span>
             </Popup>
           </Marker>
         ))}
+
         <ChangeCenter position={mapPosition} />
         <DetectClick />
       </MapContainer>
@@ -78,7 +79,6 @@ function Map() {
 function ChangeCenter({ position }) {
   const map = useMap();
   map.setView(position);
-
   return null;
 }
 
@@ -86,9 +86,7 @@ function DetectClick() {
   const navigate = useNavigate();
 
   useMapEvents({
-    click: (e) => {
-      navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`);
-    },
+    click: (e) => navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`),
   });
 }
 

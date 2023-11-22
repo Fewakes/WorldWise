@@ -29,30 +29,32 @@ function Form() {
   const { createCity, isLoading } = useCities();
   const navigate = useNavigate();
 
-  const [isLoadingGeocoding, setIsLoadingGeocoding] = useState();
+  const [isLoadingGeocoding, setIsLoadingGeocoding] = useState(false);
   const [cityName, setCityName] = useState("");
   const [country, setCountry] = useState("");
   const [date, setDate] = useState(new Date());
   const [notes, setNotes] = useState("");
-
-  const [emoji, setEmoji] = useState();
+  const [emoji, setEmoji] = useState("");
   const [geocodingError, setGeocodingError] = useState("");
 
   useEffect(
     function () {
       if (!lat && !lng) return;
+
       async function fetchCityData() {
         try {
           setIsLoadingGeocoding(true);
           setGeocodingError("");
+
           const res = await fetch(
             `${BASE_URL}?latitude=${lat}&longitude=${lng}`
           );
           const data = await res.json();
+          console.log(data);
 
           if (!data.countryCode)
             throw new Error(
-              "That doesn't seem to be a city. Click somewhere else 😉 "
+              "That doesn't seem to be a city. Click somewhere else 😉"
             );
 
           setCityName(data.city || data.locality || "");
@@ -82,6 +84,7 @@ function Form() {
       notes,
       position: { lat, lng },
     };
+
     await createCity(newCity);
     navigate("/app/cities");
   }
